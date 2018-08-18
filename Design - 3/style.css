@@ -3,27 +3,10 @@ body{
 			}
 		
 		
-			.navbar {
-			  background-color:black;
-			  padding-top: 14px;
-			  padding-bottom: 15px;
-			  border: 0;
-			  border-radius: 0;
-			  margin-bottom: 0;
-			  font-size: 17px;
-			  position:fix;
-			  letter-spacing: 1px;
-			}
-			.navbar-nav  li a:hover {
-			  color: white !important;
-			}
-			
-			
-			
 			
 			.parallax1 {
 				/* The image used */
-				background-image: url("b2.jpg");
+				background-image: url("images/b2.jpg");
 
 				/* Set a specific height */
 				min-height: 752px; 
