@@ -1,0 +1,366 @@
+body{
+				background-color:DarkTurquoise;
+			}
+		
+		
+			.navbar {
+			  background-color:black;
+			  padding-top: 14px;
+			  padding-bottom: 15px;
+			  border: 0;
+			  border-radius: 0;
+			  margin-bottom: 0;
+			  font-size: 17px;
+			  position:fix;
+			  letter-spacing: 1px;
+			}
+			.navbar-nav  li a:hover {
+			  color: white !important;
+			}
+			
+			
+			
+			
+			.parallax1 {
+				/* The image used */
+				background-image: url("b2.jpg");
+
+				/* Set a specific height */
+				min-height: 752px; 
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				color:white;		
+			}
+			.hero-text {
+				  text-align: center;
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -60%);
+				  color: white;
+			}
+			
+			.col-9 {width: 10%;background-color: rd;
+					position: relative;
+					left:50%;
+					-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+					animation-name: example;
+
+					animation-duration: .5s;
+					animation-delay: 0s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;    
+					}
+					
+					@-webkit-keyframes example {
+						from {top: 0px; background-color: yello;}
+						to {top: 100px; background-color: crimso;}
+				}
+
+				/* Standard syntax */
+				@keyframes example  {
+						from {top: 680px; opacity:0.2; background-color: yello;}
+						to {top: 690px; background-color: crimso;}
+				}
+				
+				
+				.parallax2 {
+				/* The image used */
+				background-image: url(".jpg");
+				
+				background-color:DarkTurquoise;
+
+				/* Set a specific height */
+				min-height: 508px; 
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				color:white;		
+			}
+			
+			.col-2 {width: 10%;background-color: re;
+					position: relative;
+					left:50%;
+					margin-top:15%;
+					-webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+					animation-name: example1;
+
+					animation-duration: 2s;
+					animation-delay: 1s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;    
+					}
+					
+				@-webkit-keyframes example1 {
+						from {left: 200px; background-color: yello;}
+						to {left: 400px; background-color: crimso;}
+				}
+
+				/* Standard syntax */
+				@keyframes example1  {
+						from {left: 400px;  background-color: yello;}
+						to {left: 600px; background-color: crimso;}
+				}
+			
+			
+			
+			
+			
+			
+			.parallax3 {
+				/* The image used */
+				background-image: url(".jpg");
+				
+				background-color:yellow;
+
+				/* Set a specific height */
+				min-height: 742px; 
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				color:white;		
+			}
+			
+			
+			
+			
+			.col-3 {width: 50%;background-color: red;
+					position: relative;
+					left:35%;
+					top:270%;
+					-webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+					animation-name: example2;
+
+					animation-duration: 2s;
+					animation-delay: 1s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;    
+					}
+					
+				.col-4{
+					background-color:rd;
+					text-align:center;
+					
+					width:100%;
+				}
+			
+			.parallax4 {
+				/* The image used */
+				background-image: url(".jpg");
+				
+				background-color:DodgerBlue;
+
+				/* Set a specific height */
+				min-height: 750px; 
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				color:white;		
+			}
+			
+			.parallax5 {
+				/* The image used */
+				background-image: url(".jpg");
+				
+				background-color:IndianRed;
+
+				/* Set a specific height */
+				min-height: 750px; 
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				color:white;		
+			}
+			
+			
+			.ptext {
+				  text-align: center;
+				  position: absolute;
+				  top: 110%;
+				  left: 50%;
+				  transform: translate(-50%, -10%);
+				  color: white;
+			}
+			
+			.p1text {
+				  text-align: center;
+				  position: absolute;
+				  top: 230%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  color: white;
+			}
+			
+			.p2text {
+				  text-align: center;
+				  position: absolute;
+				  top: 345%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  color: white;
+			}
+			
+			.p3text {
+				  text-align: center;
+				  position: absolute;
+				  top: 445%;
+				  left: 50%;
+				  transform: translate(-50%, -60%);
+				  color: white;
+			}
+			
+			.p4text {
+				  text-align: center;
+				  position: absolute;
+				  top: 515%;
+				  left: 50%;
+				  transform: translate(-50%, -60%);
+				  color: white;
+			}
+			
+			.img1{
+				
+				transform:translate(-5%, 20%);
+				
+			}
+			
+			
+			.img2{
+				position:absolute;;
+				transform: translate(0%, 70%);
+				transition: all 1s ;
+			}
+			.img2:hover{
+				transform: translate(0%, 90%);
+				transform: scale(0.5);
+			}
+			
+			.img6{
+				
+				transform:translate(0%, 0%);
+			}
+		
+		
+		
+		h1{
+			transform: translate(0%, 50%);
+		}
+		
+		
+		
+		.col-5{
+			lef:35%;
+			top:360%;
+			width:100%;
+			background-color:rd;
+		}
+		
+		.col-6{
+			lef:35%;
+			top:460%;
+			width:100%;
+			background-color:gren;
+		}
+		
+		
+		
+		
+		
+		
+		.world
+{
+ margin-top: 25%;
+
+-webkit-animation: spin1 2s infinite linear;
+-moz-animation: spin1 2s infinite linear;
+-o-animation: spin1 2s infinite linear;
+-ms-animation: spin1 2s infinite linear;
+animation: spin1 2s infinite linear;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    widh: 256px;
+    heght: 256px;
+	z-index:50;
+	
+	
+}
+
+
+ 
+@-webkit-keyframes spin1 {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin1 {
+0% { -moz-transform: rotate(0deg); }
+100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin1 {
+0% { -o-transform: rotate(0deg);}
+100% { -o-transform: rotate(360deg);}
+}
+@-ms-keyframes spin1 {
+0% { -ms-transform: rotate(0deg);}
+100% { -ms-transform: rotate(360deg);}
+}
+@-keyframes spin1 {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg);}
+} 
+
+
+
+.btn {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 10px 85px;
+	  color: black;
+	  background-color: BurlyWood;
+	  text-align: center;
+	  cursor: pointer;
+	  
+	}
+
+	.btn:hover {
+	  background-color: DarkSalmon;
+	  color: white;
+	}
+
+.parallax6 {
+		/* The image used */
+		
+		background-color:Purple;
+
+		/* Set a specific height */
+		min-height: 680px; 
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-clor:#474e5d;
+		color:white;		
+	}
