@@ -1,0 +1,287 @@
+<!Doctype html>
+
+<html>
+
+	<head>
+	
+		<title>Skills</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viweport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+		
+			* {
+				box-sizing: border-box;
+			}
+			
+						h1.oblique{
+				font-size:48px;
+				font-style:oblique;
+				color:white;
+			}
+			
+			h3.oblique{
+				color:darkslategray;
+				font-size:34px;
+				font-style:oblique;
+				
+			}
+			
+			.btn1 {
+				background-color: red;
+				color: white;
+				padding: 24px 28px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 300px	;
+				border-radius:20px;
+			}
+			
+			
+			.row::after {
+					content: "";
+					clear: both;
+					display: block;
+				}
+				
+				[class*="col-"] {
+					float: left;
+					padding: 15px;
+				}
+
+				.menu ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+				}
+				.menu li {
+					padding: 8px;
+					margin-bottom: 7px;
+					background-color: ;
+					color: crimson;
+					font-size: 28px;
+
+				}
+				.menu li:hover {
+					background-color:#474e5d;
+				}
+
+
+				/* For desktop: */
+				.col-1 {width: 100%;
+					background-color: #474e5d;}
+				.col-2 {width: 25%;
+					background-color: ;
+				}
+				.col-3 {width: 25%;
+					height:100%;}
+				.col-4 {width: 25%;}
+				.col-5 {width: 25%;}
+				.col-6 {width: 50%;}
+				.col-7 {width: 35%;}
+				.col-8 {width: 15%;}
+				.col-9 {width: 35%;}
+				@media only screen and (min-width: 600px) {
+				.col-10 {width: 15%;background-color: red;
+					position: relative;
+					-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+					animation-name: example;
+
+					animation-duration: 4s;
+					animation-delay: -1s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;    
+					}}
+
+				.col-11 {width: 100%;
+					background-color: #474e5d;
+				}
+				.col-12 {width: 100%;}
+
+				@media only screen and (max-width: 768px) {
+					/* For mobile phones: */
+					[class*="col-"] {
+						width: 100%;
+					}
+				}
+				
+				
+
+				/* Safari 4.0 - 8.0 */
+				@-webkit-keyframes example {
+						from {top: 0px; background-color: yellow;}
+						to {top: 100px; background-color: crimson;}
+				}
+
+				/* Standard syntax */
+				@keyframes example  {
+						from {top: 0px; background-color: #474e5d;}
+						to {top: 352px; background-color: crimson;}
+				}
+				
+				.c {width: 60%; background-color: gray;}
+			.cpp {width: 40%; background-color: gray;}
+			.lisp {width: 30%; background-color: gray;}
+			.javac {width: 65%; background-color: gray;}
+			.javaa {width: 30%; background-color: gray;}
+			.html {width: 75%; background-color: gray;}
+			.php {width: 35%; background-color: gray;}
+			.css {width: 80%; background-color: gray;}
+			.bs {width: 65%; background-color: gray;}
+			.js {width: 55%; background-color: gray;}
+			.sql {width: 45%; background-color: gray;}
+			.db {width: 100%; background-color: gray;}
+				
+				h3.oblique{
+				font-style:oblique;
+			}
+			p {
+				font-size: 19px;
+				color:darkslategray;
+				
+			}
+			p.oblique{
+				font-style:oblique;
+			}
+			
+						.container {
+				width: 100%;
+				background-color: #ddd;
+			}
+			
+			.skills {
+			  text-align: right;
+			  padding-right: 20px;
+			  line-height: 5px;
+			  color: gray;
+			  font-size:3px;
+			}
+			
+		</style>
+		
+		
+	</head>
+	
+	<body>
+		
+		<div class="col-1">
+			<h1 class="oblique">Skills*</h1>
+		</div>
+		
+		<div class="col-2">
+				<p>C</p>
+				<div class="container">
+					 <div class=" skills c">90%</div>
+				</div>
+				
+				<p>Java Advance</p>
+							<div class="container">
+							  <div class="skills javaa">80%</div>
+							</div>
+							
+							<p>CSS</p>
+							<div class="container">
+							  <div class="skills css">80%</div>
+							</div>
+				
+		</div>
+		
+		
+		<div class="col-3">
+		
+			<p>C++</p>
+							<div class="container">
+							  <div class="skills cpp">80%</div>
+							</div>
+							
+							<p>HTML</p>
+							<div class="container">
+							  <div class="skills html">65%</div>
+							</div>
+							
+							<p>MySQL</p>
+							<div class="container">
+							  <div class="skills sql">80%</div>
+							</div>
+		
+		</div>
+		
+		<div class="col-4">
+		
+			<p>Lisp</p>
+							<div class="container">
+							  <div class="skills lisp">65%</div>
+							</div>
+							
+							<p>PHP</p>
+							<div class="container">
+							  <div class="skills php">80%</div>
+							</div>
+							
+							<p class="oblique">Bootstrap</p>
+							<div class="container">
+							  <div class="skills css">80%</div>
+							</div>
+		
+		</div>
+		
+		
+		<div class="col-5">
+		
+			<p>Java Core</p>
+							<div class="container">
+							  <div class=" skills javac">90%</div>
+							</div>
+							
+							<p>Java Script</p>
+							<div class="container">
+							  <div class="skills js">80%</div>
+							</div>
+		
+		</div>
+		
+		
+		<div class="col-6">
+		<marquee><p style="font-size:13px; color:gray;"> *all skills are at intermediate level</p></marquee>
+		<h1 class="oblique" style="color:black";><em>Area of Interest</em></h1>
+			<hr><p>-Web Designing.<br>-Programming.<br>-Cloud Computing.<br>-Internet of Things.<br>-Artificial Intelligence.<br>-Algorithms.<br>-java.</p><hr>
+			<p style="color:black" >for more visit : <a href="https://www.linkedin.com/in/purusharth-sharma-0b87b6156">www.purusharthsharma.com</a></p>
+			
+		</div>
+		
+		<div class="col-7 menu">
+		  <ul><center>
+				
+				<a href="introduction.html"><p class="oblique" style="color:crimson;font-size:28px;">Introduction</p></a></li>
+				<a href="education.html"><p class="oblique" style="color:crimson;font-size:28px;">Education</p></a></li>
+				<a href="achievement.html"><p class="oblique" style="color:crimson;font-size:28px;">Achievements</p></a></li>
+				<a href="contact.html"><p class="oblique" style="color:crimson;font-size:28px;">Contacts</p></a>
+				<button class="btn1" type="submit" class="signupbtn">Download Resume</button><a></center>
+				
+		 
+		</div>
+		
+		<div class="col-10"><center>
+			<h1 style="color:white"; onmouseover="mOver(this)" onmouseout="mOut(this)" >GO ON</h1>
+		</div>
+		
+		<div class="col-11"><center>
+		  <p style="font-size:21px; color:lightgray;">Go to Home Page : <a href="index.html" style="color:gray";>Home</a></p>
+		</div>
+		
+		<script>
+				function mOver(obj) {
+					obj.innerHTML = "Thank You"
+				}
+
+				function mOut(obj) {
+					obj.innerHTML = "GO ON"
+				}
+		</script>
+		
+	</body>
+	
+</html>
