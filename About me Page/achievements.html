@@ -1,0 +1,197 @@
+<!Doctype html>
+
+<html>
+
+	<head>
+	
+		<title>Achievements</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viweport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+		
+			* {
+				box-sizing: border-box;
+			}
+			
+						h1.oblique{
+				font-size:48px;
+				font-style:oblique;
+				color:white;
+			}
+			
+			h3.oblique{
+				color:darkslategray;
+				font-size:34px;
+				font-style:oblique;
+				
+			}
+			
+			.btn1 {
+				background-color: red;
+				color: white;
+				padding: 24px 28px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 300px	;
+				border-radius:20px;
+			}
+			
+			
+			.row::after {
+					content: "";
+					clear: both;
+					display: block;
+				}
+				
+				[class*="col-"] {
+					float: left;
+					padding: 15px;
+				}
+
+				.menu ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+				}
+				.menu li {
+					padding: 8px;
+					margin-bottom: 7px;
+					background-color: ;
+					color: crimson;
+					font-size: 28px;
+
+				}
+				.menu li:hover {
+					background-color:#474e5d;
+				}
+
+
+				/* For desktop: */
+				.col-1 {width: 100%;
+					background-color: #474e5d;}
+				.col-2 {width: 55%;
+					background-color: ;
+				}
+				.col-3 {width: 30%;
+					height:100%;background-color:gren;}
+				.col-4 {width: 25%;}
+				.col-5 {width: 25%;}
+				.col-6 {width: 50%;}
+				.col-7 {width: 35%;background-color:red;}
+				.col-8 {width: 15%;}
+				.col-9 {width: 35%;}
+				@media only screen and (min-width: 600px) {
+				.col-10 {width: 15%;background-color: red;
+					position: relative;
+					-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+					animation-name: example;
+
+					animation-duration: 4s;
+					animation-delay: -1s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;    
+					}}
+
+				.col-11 {width: 100%;
+					background-color: #474e5d;
+				}
+				.col-12 {width: 100%;}
+
+				@media only screen and (max-width: 768px) {
+					/* For mobile phones: */
+					[class*="col-"] {
+						width: 100%;
+					}
+				}
+				
+				
+
+				/* Safari 4.0 - 8.0 */
+				@-webkit-keyframes example {
+						from {top: 0px; background-color: yellow;}
+						to {top: 100px; background-color: crimson;}
+				}
+
+				/* Standard syntax */
+				@keyframes example  {
+						from {top: 0px; background-color: #474e5d;}
+						to {top: 424px; background-color: crimson;}
+				}
+			
+				
+				h3.oblique{
+				font-style:oblique;
+			}
+			p {
+				font-size: 19px;
+				color:darkslategray;
+				
+			}
+			p.oblique{
+				font-style:oblique;
+			}
+			
+		</style>
+		
+		</head>
+		
+		
+		<body>
+		
+		<div class="col-1">
+			<h1 class="oblique">Achievements & Projects</h1>
+		</div>
+		
+		<div class="col-2">
+				<hr><p>-Ranked under 30000 in Hackerrank.<br>-Ranked under 25000 in Algorithm(subdomain) in Hackerrank.<br>
+				-Ranked in 50000 in Java (subdomain) in Hackerrank.<br>-Got Bronze Medal in Hour Rank 26 , online Comptetion on Hackerrank
+							.<br>-60% in 13 live Comptetions of Hackerrank.<br>-Gold Badge in Problem Solving in Hackerrank.<br>-Gold Badge in Java in Hackerrank.
+							<br></p>
+							<h3 class="oblique"><u>Project Details</u></h3>
+							<p>-Make Attedance Management System for my College.<br>-Make Various types of form and connect them with Databse .<br>
+							-Make Calculator, Notepad using Java.<br>-Currently Working on two Projects Online Bus Service
+							and Designing a website.<br>-Make my About me page using HTML, CSS, JavaScript and Bootstrap.</p><hr>
+				<p style="color:black" >for more visit : <a href="https://www.hackerrank.com/purusharma9498">www.purusharthsharma.com</a></p>
+
+			</div>
+			
+			
+				<div class="col-3 menu">
+		  <ul><center>
+				
+				<a href="introduction.html"><p class="oblique" style="color:crimson;font-size:28px;">Introduction</p></a></li>
+				<a href="education.html"><p class="oblique" style="color:crimson;font-size:28px;">Education</p></a></li>
+				<a href="skills.html"><p class="oblique" style="color:crimson;font-size:28px;">Skills</p></a></li>
+				<a href="contact.html"><p class="oblique" style="color:crimson;font-size:28px;">Contacts</p></a>
+				<button class="btn1" type="submit" class="signupbtn">Download Resume</button><a></center></div>
+				
+		 
+	
+		
+		<div class="col-10"><center>
+			<h1 style="color:white"; onmouseover="mOver(this)" onmouseout="mOut(this)" >GO ON</h1>
+		</div>
+		
+		<div class="col-11"><center>
+		  <p style="font-size:21px; color:lightgray;">Go to Home Page : <a href="index.html" style="color:gray";>Home</a></p>
+		</div>
+		
+		<script>
+				function mOver(obj) {
+					obj.innerHTML = "Thank You"
+				}
+
+				function mOut(obj) {
+					obj.innerHTML = "GO ON"
+				}
+		</script>
+		
+		
+		</body>
+		
+		
+</html>
