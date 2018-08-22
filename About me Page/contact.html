@@ -1,0 +1,197 @@
+<!Doctype html>
+
+<html>
+
+	<head>
+	
+		<title>Contacts</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viweport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+		
+			body{
+				background-image:url("images/contact.jpg");
+				font: 20px Montserrat, sans-serif;
+				line-height: 1.8;
+				color: #f5f6f7;
+				background-size:1600px 800px;
+			}
+		
+			* {
+				box-sizing: border-box;
+			}
+			
+						h1.oblique{
+				font-size:48px;
+				font-style:oblique;
+				color:white;
+			}
+			
+			h3.oblique{
+				color:darkslategray;
+				font-size:34px;
+				font-style:oblique;
+				
+			}
+			
+			.btn1 {
+				background-color: red;
+				color: white;
+				padding: 24px 28px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 300px	;
+				border-radius:20px;
+			}
+			
+			
+			.row::after {
+					content: "";
+					clear: both;
+					display: block;
+				}
+				
+				[class*="col-"] {
+					float: left;
+					padding: 15px;
+				}
+
+				.menu ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+				}
+				.menu li {
+					padding: 8px;
+					margin-bottom: 7px;
+					background-color: ;
+					color: crimson;
+					font-size: 28px;
+
+				}
+				.menu li:hover {
+					background-color:#474e5d;
+				}
+
+
+				/* For desktop: */
+				.col-1 {width: 100%;
+					background-color: ;}
+				.col-2 {width: 50%;
+					background-color: ;
+				}
+				.col-3 {width: 30%;
+					height:100%;background-color:gren;}
+				.col-4 {width: 25%;}
+				.col-5 {width: 25%;}
+				.col-6 {width: 50%;}
+				.col-7 {width: 35%;background-color:red;}
+				.col-8 {width: 15%;}
+				.col-9 {width: 35%;}
+				@media only screen and (min-width: 600px) {
+				.col-10 {width: 15%;background-color: red;
+					position: relative;
+					-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+					-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+					animation-name: example;
+
+					animation-duration: 4s;
+					animation-delay: -1s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;    
+					}}
+
+				.col-11 {width: 100%;
+					background-color: #474e5d;
+				}
+				.col-12 {width: 100%;}
+
+				@media only screen and (max-width: 768px) {
+					/* For mobile phones: */
+					[class*="col-"] {
+						width: 100%;
+					}
+				}
+				
+				
+
+				/* Safari 4.0 - 8.0 */
+				@-webkit-keyframes example {
+						from {top: 0px; background-color: yellow;}
+						to {top: 100px; background-color: crimson;}
+				}
+
+				/* Standard syntax */
+				@keyframes example  {
+						from {top: 0px; background-color: yellow;}
+						to {top: 390px; background-color: crimson;}
+				}
+			
+				
+				h3.oblique{
+				font-style:oblique;
+			}
+			p{
+				font-size: 24px;
+				color:white;
+			}
+			
+		</style>
+		
+		</head>
+		
+		
+		<body>
+			
+			<div class="col-1">
+			<h1 class="oblique">Contact</h1>
+			</div>
+			
+			<div class="col-2">
+				
+					<hr><p class="fa fa-phone-square" style="font-size:22px;""> 9837888596</p><br>
+						<p class="fa fa-github" style="font-size:22px;""><a href="https://github.com/PurusharthSharma"> PurusharthSharma</a></p><br>
+						<p class="fa fa-envelope" style="font-size:22px;""> purusharma9498@gmail.com</p><br>
+						<p class="fa fa-whatsapp" style="font-size:22px;"> 9837888596</p><br>
+						<p class="fa fa-facebook-square" style="font-size:22px;"> purusharthsharma@gmail.com</p><br>
+						<p class="fa fa-linkedin-square" style="font-size:22px;"><a href="www.linkedin.com/in/purusharth-sharma-0b87b6156"> www.purusharthsharmalinkedin.com</a></p>
+						<br>
+						
+						
+					<hr>
+							 
+					
+					
+			
+			</div>
+			
+			<div class="col-9"><center>
+				<button class="btn1" type="submit" class="signupbtn">Download Resume</button><a></center></div>
+			</div>
+			
+			<div class="col-10"><center>
+			<h1 style="color:white"; onmouseover="mOver(this)" onmouseout="mOut(this)" >GO ON</h1>
+		</div>
+		
+		<div class="col-11"><center>
+		  <p style="font-size:21px; color:lightgray;">Go to Home Page : <a href="index.html" style="color:gray";>Home</a></p>
+		</div>
+		
+		<script>
+				function mOver(obj) {
+					obj.innerHTML = "Thank You"
+				}
+
+				function mOut(obj) {
+					obj.innerHTML = "GO ON"
+				}
+		</script>
+		</body>
+		
+		
+</html>
