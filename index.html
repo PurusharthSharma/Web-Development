@@ -1,0 +1,39 @@
+    <!DOCTYPE html >
+    <html xmlns="http://www.w3.org/1999/xhtml">  
+    <head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title>Showing a div on Time delay using javascript</title>  
+      
+    <style type="text/css">  
+    body {  
+         background-color:#FFF;  
+    }  
+      
+    /* style for hidden div */  
+     #hide {  
+          border: 1px solid black;  
+          background-color:#C09;  
+          width: 400px;  
+          height: 400px;  
+          padding: 10px;  
+          margin: 0 auto;  
+     }  
+      
+    </style>  
+    </head>  
+    <body>  
+      
+    <p>DIV ON TIME DELAY </p>  
+    <!-- HIDDEN DIV SET TO DISPLAY AFTER 2 SECONDS - THIS CAN BE CHANGED BELOW  -->  
+    <div id="hide" style="visibility: hidden">CONTENT OF DIV GOES HERE</div>  
+    <script type="text/javascript">  
+    function showIt() {  
+      document.getElementById("hide").style.visibility = "visible";  
+    }  
+    setTimeout("showIt()", 2000); // after 2 sec  
+    </script>  
+    <p> We'll see if this works ! Div set to show after 2 seconds.  
+    <p> Ba da bing!  I think it does... ;-)  tested in FFox and IE7</p>  
+      
+    </body>  
+    </html>  
