@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>registration form</title>
+  <link type="text/css" rel="stylesheet" href="C:\Users\RAJ KUMAR\Desktop\html\WT project\cs.css"> 
+  <script src="C:\Users\RAJ KUMAR\Desktop\html\WT project\regtablejs.js">
+  </script> 
+</head>
+
+  <body>
+    <div id="header">
+      <center>
+       <p style="font-size:50px; color:red;">CORF&#8482</>
+    </div>
+   
+    <marquee onMouseOver=this.stop() onMouseOut=this.start()><h1><i>Online Registration form</i></h1>   
+     <br>
+     <b><i><font color="blue" size="4">Last date 26 NOV 2017</i></b>
+    </marquee>
+
+    <form action=""  >
+      <fieldset id="field">
+       <legend><h2>Personal info </h2></legend> 
+       <center>
+         <table background="emma - Copy.bmp" >
+
+          <tr>
+           <td><label for="name" class="tooltip"> Name:</label></td>
+		   <span class="tooltiptxt"> Enter name as per document </span>
+           <td> <input type="text" id="name" name=""> </td>
+          </tr>
+
+         
+          
+          <tr>
+            <td><label for="age" class="tooltip"> Age:</label></td>
+			<span class="tooltiptxt"> Enter age between 1-99 </span>
+            <td><input type="number" id="age" name=""></td>
+          </tr>
+
+
+          <tr>
+           <td>Gender:</td> 
+           <td>
+              <input type="radio" name="gender" value="male" checked>Male
+              <input type="radio" name="gender" value="female" >Female
+              <input type="radio" name="gender" value="other" >Other
+           </td>
+          </tr>
+
+          
+          <tr>
+           <td><label for="contact"> Mobile no.:</label> </td>
+           <td><input type="tel" id="contact" name=""></td>
+          </tr>
+          
+          <tr>
+           <td><label for="add"> Address:</label></td>
+           <td><textarea rows="2" col="40" id="add"></textarea></td>
+          </tr>
+
+
+          <tr>
+            <td><label for="mail" class="tooltip"> E-mail:</label></td>
+			<span class="tooltiptxt"> format: abc@gmail.com </span>
+            <td><input type="e-mail" id="mail" name=""></td>
+          </tr>
+   
+          <tr>
+           <td><div class="tooltip" > Password: </td>
+		   <span class="tooltiptxt"> Enter more than 6 character </span>
+           <td><input type="password" id="pass" name=""> </td></div>
+          </tr>
+
+           <tr>
+           <td><label for="rpass"> Reconfirm Password:</label> </td>
+           <td><input type="password" id="rpass" name=""> </td>
+          </tr>
+
+
+
+          <tr><td></td>
+           <td>
+             <a href="C:\Users\RAJ KUMAR\Desktop\html\WT project\front.html">
+               <input type="button" value="Submit" onclick="return validateTextbox();" >
+             </a>
+             <a href="C:\Users\RAJ KUMAR\Desktop\html\WT project\regtable.html">                                   &nbsp &nbsp &nbsp
+               <input type="button"  onclick="alert('do you want to reset')" value="Reset">
+             </a>          
+           </td>
+          </tr>
+
+       </table >
+
+    </fieldset>
+
+  </form></br>
+
+
+ </body> 
+
+</html>
